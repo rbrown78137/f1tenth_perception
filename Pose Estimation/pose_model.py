@@ -127,3 +127,20 @@ class PoseModelForConversion(nn.Module):
         standard_deviation_of_distributions = torch.std(output_list, dim=0).to(constants.device)
         average_of_distributions = torch.mean(output_list, dim=0).to(constants.device)
         return average_of_distributions[..., 0:4], standard_deviation_of_distributions[..., 0:4] + torch.abs(average_of_distributions[..., 4:8])
+
+    @torch.jit.export
+    def sample_body(self, input):
+        conv_output = self.conv_layer(input)
+        body_output = self.ff_body(conv_output)
+        return body_output
+
+    @torch.jit.export
+    def sample_head(self, input):
+        output_list = []
+        for idx in range(constants.sampling_size):
+            sample = self.ff_head(input).unsqueeze(0)
+            output_list.append(sample)
+        output_list = torch.cat(output_list, dim=0).to(constants.device)
+        standard_deviation_of_distributions = torch.std(output_list, dim=0).to(constants.device)
+        average_of_distributions = torch.mean(output_list, dim=0).to(constants.device)
+        return average_of_distributions[..., 0:4], standard_deviation_of_distributions[..., 0:4] + torch.abs(average_of_distributions[..., 4:8])
