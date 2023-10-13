@@ -53,7 +53,7 @@ for epoch in range(num_epochs):
         optimizer.step()
 
     print(f"Epoch: {epoch} Loss: {lossForEpoch/train_size*batch_size}")
-    if epoch > 0:
+    if epoch > 0 and epoch % 5 == 0:
         with torch.no_grad():
             total_x_error = 0
             total_y_error = 0

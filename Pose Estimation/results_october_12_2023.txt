@@ -1,0 +1,521 @@
+/usr/bin/python3.8 /snap/pycharm-community/350/plugins/python-ce/helpers/pydev/pydevd.py --multiprocess --qt-support=auto --client 127.0.0.1 --port 43999 --file /home/ryan/dev/NIMBUS/f1tenth_perception/Pose Estimation/train.py
+Connected to pydev debugger (build 232.10072.31)
+Epoch: 0 Loss: 405.77584518600355
+Epoch: 1 Loss: 10.414492438002783
+Epoch: 2 Loss: 11.121838867595564
+Epoch: 3 Loss: 10.48169746097757
+Epoch: 4 Loss: 8.83351592775521
+Epoch: 5 Loss: 8.497851458707466
+Epoch: 5 Validation Loss: 1.615226073631193
+------: x Error: 0.07484781566034944
+------: y Error: 0.11842672809825999
+------: varphi_x Error: 0.04415454617340421
+------: varphi_y Error: 0.10143919397773091
+------: x internal Error: 0.08964303880929947
+------: y internal Error: 0.27514946460723877
+------: varphi_x internal Error: 0.07092096656560898
+------: varphi_y internal Error: 0.2037230134010315
+------: x model Error: 0.010725768283009529
+------: y model Error: 0.01538887619972229
+------: varphi_x model Error: 0.012170514091849327
+------: varphi_y model Error: 0.012869586236774921
+------: x mix Error: 0.10036881268024445
+------: y mix Error: 0.29053834080696106
+------: varphi_x mix Error: 0.08309148252010345
+------: varphi_y mix Error: 0.21659262478351593
+Saved Model
+Epoch: 6 Loss: 8.337221477129164
+Epoch: 7 Loss: 8.135365706236701
+Epoch: 8 Loss: 8.015488918355958
+Epoch: 9 Loss: 7.961757516003279
+Epoch: 10 Loss: 7.955597013076073
+Epoch: 10 Validation Loss: 1.5303331484313338
+------: x Error: 0.08629596410710073
+------: y Error: 0.1455223490185756
+------: varphi_x Error: 0.052101353707445716
+------: varphi_y Error: 0.21133750746824742
+------: x internal Error: 0.09501219540834427
+------: y internal Error: 0.17195861041545868
+------: varphi_x internal Error: 0.08063022047281265
+------: varphi_y internal Error: 0.20299485325813293
+------: x model Error: 0.00945377442985773
+------: y model Error: 0.025486990809440613
+------: varphi_x model Error: 0.01013781875371933
+------: varphi_y model Error: 0.011475808918476105
+------: x mix Error: 0.10446596890687943
+------: y mix Error: 0.1974456012248993
+------: varphi_x mix Error: 0.09076803177595139
+------: varphi_y mix Error: 0.21447065472602844
+Saved Model
+Epoch: 11 Loss: 7.932814105310777
+Epoch: 12 Loss: 7.978392870269551
+Epoch: 13 Loss: 7.921636518239612
+Epoch: 14 Loss: 7.961449639225394
+Epoch: 15 Loss: 7.964861269844447
+Epoch: 15 Validation Loss: 1.5416843394720734
+------: x Error: 0.07071902428320002
+------: y Error: 0.16015980170070143
+------: varphi_x Error: 0.05027434063458437
+------: varphi_y Error: 0.21080753503963803
+------: x internal Error: 0.09056206792593002
+------: y internal Error: 0.1563248485326767
+------: varphi_x internal Error: 0.08127234131097794
+------: varphi_y internal Error: 0.1940331757068634
+------: x model Error: 0.00783543661236763
+------: y model Error: 0.023855391889810562
+------: varphi_x model Error: 0.009770088829100132
+------: varphi_y model Error: 0.0109998919069767
+------: x mix Error: 0.09839751571416855
+------: y mix Error: 0.18018023669719696
+------: varphi_x mix Error: 0.0910424292087555
+------: varphi_y mix Error: 0.2050330638885498
+Epoch: 16 Loss: 7.997486717296078
+Epoch: 17 Loss: 7.922798403297145
+Epoch: 18 Loss: 7.833293169543146
+Epoch: 19 Loss: 7.719465021080326
+Epoch: 20 Loss: 7.594537584289202
+Epoch: 20 Validation Loss: 1.3965994193078006
+------: x Error: 0.06834718922469805
+------: y Error: 0.12141247497042275
+------: varphi_x Error: 0.04793731162353731
+------: varphi_y Error: 0.20993893068194763
+------: x internal Error: 0.06616362929344177
+------: y internal Error: 0.10559399425983429
+------: varphi_x internal Error: 0.07294050604104996
+------: varphi_y internal Error: 0.18676945567131042
+------: x model Error: 0.007232050411403179
+------: y model Error: 0.020140307024121284
+------: varphi_x model Error: 0.00761765893548727
+------: varphi_y model Error: 0.008926250971853733
+------: x mix Error: 0.07339567691087723
+------: y mix Error: 0.12573429942131042
+------: varphi_x mix Error: 0.0805581659078598
+------: varphi_y mix Error: 0.19569572806358337
+Saved Model
+Epoch: 21 Loss: 7.2227756020835585
+Epoch: 22 Loss: 6.3812107949518655
+Epoch: 23 Loss: 6.043481064107111
+Epoch: 24 Loss: 5.321565991236505
+Epoch: 25 Loss: 5.055333352687297
+Epoch: 25 Validation Loss: 0.8621302097920222
+------: x Error: 0.011738787105504763
+------: y Error: 0.04208154569351837
+------: varphi_x Error: 0.0393854035648729
+------: varphi_y Error: 0.1563835085881422
+------: x internal Error: 0.021581752225756645
+------: y internal Error: 0.07495148479938507
+------: varphi_x internal Error: 0.05642024055123329
+------: varphi_y internal Error: 0.18840397894382477
+------: x model Error: 0.01068180799484253
+------: y model Error: 0.026433879509568214
+------: varphi_x model Error: 0.009575207717716694
+------: varphi_y model Error: 0.012993637472391129
+------: x mix Error: 0.032263562083244324
+------: y mix Error: 0.10138536244630814
+------: varphi_x mix Error: 0.06599545478820801
+------: varphi_y mix Error: 0.2013976126909256
+Saved Model
+Epoch: 26 Loss: 4.725479095935061
+Epoch: 27 Loss: 4.505706665789109
+Epoch: 28 Loss: 4.27869276244902
+Epoch: 29 Loss: 4.104118530342976
+Epoch: 30 Loss: 3.801898411591879
+Epoch: 30 Validation Loss: 0.5683457456908503
+------: x Error: 0.00803481431530675
+------: y Error: 0.030021213432917436
+------: varphi_x Error: 0.029265304207395156
+------: varphi_y Error: 0.1946849747599201
+------: x internal Error: 0.009997428394854069
+------: y internal Error: 0.05432034656405449
+------: varphi_x internal Error: 0.031125040724873543
+------: varphi_y internal Error: 0.15977224707603455
+------: x model Error: 0.007758414838463068
+------: y model Error: 0.022075969725847244
+------: varphi_x model Error: 0.007540475577116013
+------: varphi_y model Error: 0.011216815561056137
+------: x mix Error: 0.017755843698978424
+------: y mix Error: 0.07639631628990173
+------: varphi_x mix Error: 0.038665514439344406
+------: varphi_y mix Error: 0.1709890365600586
+Saved Model
+Epoch: 31 Loss: 3.5719891992605874
+Epoch: 32 Loss: 3.5107494457827833
+Epoch: 33 Loss: 3.5108729345512275
+Epoch: 34 Loss: 3.4118548974383107
+Epoch: 35 Loss: 3.257255003365816
+Epoch: 35 Validation Loss: 0.5277306342143575
+------: x Error: 0.008619142392691622
+------: y Error: 0.03256856265511014
+------: varphi_x Error: 0.031472311432549256
+------: varphi_y Error: 0.16099611865872543
+------: x internal Error: 0.006164148449897766
+------: y internal Error: 0.047993388026952744
+------: varphi_x internal Error: 0.030764106661081314
+------: varphi_y internal Error: 0.15080370008945465
+------: x model Error: 0.0068003274500370026
+------: y model Error: 0.025008777156472206
+------: varphi_x model Error: 0.00564600620418787
+------: varphi_y model Error: 0.012323303148150444
+------: x mix Error: 0.012964475899934769
+------: y mix Error: 0.0730021670460701
+------: varphi_x mix Error: 0.03641011193394661
+------: varphi_y mix Error: 0.16312699019908905
+Saved Model
+Epoch: 36 Loss: 3.1774340632759857
+Epoch: 37 Loss: 3.425870668975967
+Epoch: 38 Loss: 3.1545000689795395
+Epoch: 39 Loss: 2.9497992673751408
+Epoch: 40 Loss: 2.8704236183985983
+Epoch: 40 Validation Loss: 0.46531378198384576
+------: x Error: 0.008180650938170612
+------: y Error: 0.03604780041222096
+------: varphi_x Error: 0.03356720866187538
+------: varphi_y Error: 0.15724644411471322
+------: x internal Error: 0.0031693209894001484
+------: y internal Error: 0.04995918646454811
+------: varphi_x internal Error: 0.031488895416259766
+------: varphi_y internal Error: 0.12387170642614365
+------: x model Error: 0.006775519344955683
+------: y model Error: 0.022917157039046288
+------: varphi_x model Error: 0.006043342873454094
+------: varphi_y model Error: 0.01374252699315548
+------: x mix Error: 0.009944840334355831
+------: y mix Error: 0.07287633419036865
+------: varphi_x mix Error: 0.03753223642706871
+------: varphi_y mix Error: 0.13761422038078308
+Saved Model
+Epoch: 41 Loss: 2.9218670964075555
+Epoch: 42 Loss: 2.8865624309827838
+Epoch: 43 Loss: 2.908799335177417
+Epoch: 44 Loss: 2.7374153524215235
+Epoch: 45 Loss: 2.7358763549297342
+Epoch: 45 Validation Loss: 0.583331844515706
+------: x Error: 0.006510647581384915
+------: y Error: 0.02708940734985295
+------: varphi_x Error: 0.05395515568078491
+------: varphi_y Error: 0.1495149887756933
+------: x internal Error: 0.0056520807556807995
+------: y internal Error: 0.05364496260881424
+------: varphi_x internal Error: 0.056964024901390076
+------: varphi_y internal Error: 0.12128949165344238
+------: x model Error: 0.007173960562795401
+------: y model Error: 0.02192046493291855
+------: varphi_x model Error: 0.0069190762005746365
+------: varphi_y model Error: 0.01657717674970627
+------: x mix Error: 0.0128260413184762
+------: y mix Error: 0.07556542754173279
+------: varphi_x mix Error: 0.06388310343027115
+------: varphi_y mix Error: 0.13786666095256805
+Epoch: 46 Loss: 2.6253698033638972
+Epoch: 47 Loss: 2.628756699780136
+Epoch: 48 Loss: 2.5329058720454736
+Epoch: 49 Loss: 2.5431478224066755
+Epoch: 50 Loss: 2.481362064775102
+Epoch: 50 Validation Loss: 0.5155931835509929
+------: x Error: 0.006352481916074938
+------: y Error: 0.020427670375295397
+------: varphi_x Error: 0.04660285549863499
+------: varphi_y Error: 0.12246046877703076
+------: x internal Error: 0.004372687544673681
+------: y internal Error: 0.039776258170604706
+------: varphi_x internal Error: 0.05848521366715431
+------: varphi_y internal Error: 0.12881378829479218
+------: x model Error: 0.0065229772590100765
+------: y model Error: 0.01971425488591194
+------: varphi_x model Error: 0.006571881007403135
+------: varphi_y model Error: 0.014658079482614994
+------: x mix Error: 0.010895663872361183
+------: y mix Error: 0.05949051305651665
+------: varphi_x mix Error: 0.06505709141492844
+------: varphi_y mix Error: 0.1434718668460846
+Epoch: 51 Loss: 2.3814247659592755
+Epoch: 52 Loss: 2.6309037192807705
+Epoch: 53 Loss: 2.573866160689253
+Epoch: 54 Loss: 2.376775381246005
+Epoch: 55 Loss: 2.240724866031806
+Epoch: 55 Validation Loss: 0.43548790199530746
+------: x Error: 0.0048358360293476775
+------: y Error: 0.029122364933810832
+------: varphi_x Error: 0.031133952893215466
+------: varphi_y Error: 0.14149578986781766
+------: x internal Error: 0.0026286866050213575
+------: y internal Error: 0.03429781645536423
+------: varphi_x internal Error: 0.03190148249268532
+------: varphi_y internal Error: 0.13230237364768982
+------: x model Error: 0.005929671693593264
+------: y model Error: 0.019178317859768867
+------: varphi_x model Error: 0.005516684614121914
+------: varphi_y model Error: 0.014269625768065453
+------: x mix Error: 0.008558358065783978
+------: y mix Error: 0.053476136177778244
+------: varphi_x mix Error: 0.03741816431283951
+------: varphi_y mix Error: 0.14657199382781982
+Saved Model
+Epoch: 56 Loss: 2.1314414764425056
+Epoch: 57 Loss: 2.0330605460428357
+Epoch: 58 Loss: 2.2155256439193205
+Epoch: 59 Loss: 2.108904243014802
+Epoch: 60 Loss: 1.853090864404678
+Epoch: 60 Validation Loss: 0.5830587168979635
+------: x Error: 0.004179802843892206
+------: y Error: 0.022157929198297024
+------: varphi_x Error: 0.05827384843818891
+------: varphi_y Error: 0.16182095780434244
+------: x internal Error: 0.0019612861797213554
+------: y internal Error: 0.03082079254090786
+------: varphi_x internal Error: 0.03858591988682747
+------: varphi_y internal Error: 0.12013574689626694
+------: x model Error: 0.005565583240240812
+------: y model Error: 0.016490789130330086
+------: varphi_x model Error: 0.005957884714007378
+------: varphi_y model Error: 0.012989355251193047
+------: x mix Error: 0.00752686895430088
+------: y mix Error: 0.047311585396528244
+------: varphi_x mix Error: 0.0445438027381897
+------: varphi_y mix Error: 0.13312509655952454
+Epoch: 61 Loss: 1.741550758592383
+Epoch: 62 Loss: 1.8165651455651664
+Epoch: 63 Loss: 1.8825851209632285
+Epoch: 64 Loss: 1.8676853221533325
+Epoch: 65 Loss: 1.8124066728601909
+Epoch: 65 Validation Loss: 0.3675584490453797
+------: x Error: 0.006137234925354592
+------: y Error: 0.015481493510435576
+------: varphi_x Error: 0.06511187395093436
+------: varphi_y Error: 0.0981207528028672
+------: x internal Error: 0.001492720446549356
+------: y internal Error: 0.03196113184094429
+------: varphi_x internal Error: 0.03238280490040779
+------: varphi_y internal Error: 0.1349351555109024
+------: x model Error: 0.00576229952275753
+------: y model Error: 0.018468936905264854
+------: varphi_x model Error: 0.005839435383677483
+------: varphi_y model Error: 0.013559206388890743
+------: x mix Error: 0.007255020551383495
+------: y mix Error: 0.050430070608854294
+------: varphi_x mix Error: 0.038222234696149826
+------: varphi_y mix Error: 0.14849437773227692
+Saved Model
+Epoch: 66 Loss: 1.7770643860930675
+Epoch: 67 Loss: 1.7579171673854657
+Epoch: 68 Loss: 1.7523922906876637
+Epoch: 69 Loss: 1.5139763980455119
+Epoch: 70 Loss: 1.354580720987823
+Epoch: 70 Validation Loss: 0.2662811137914209
+------: x Error: 0.004427703905799937
+------: y Error: 0.017835126377955233
+------: varphi_x Error: 0.03168735437375699
+------: varphi_y Error: 0.12324105050876141
+------: x internal Error: 0.0014052815968170762
+------: y internal Error: 0.02519257366657257
+------: varphi_x internal Error: 0.021975062787532806
+------: varphi_y internal Error: 0.11095858365297318
+------: x model Error: 0.005513198673725128
+------: y model Error: 0.017806200310587883
+------: varphi_x model Error: 0.0050912476144731045
+------: varphi_y model Error: 0.014174701645970345
+------: x mix Error: 0.00691848061978817
+------: y mix Error: 0.042998772114515305
+------: varphi_x mix Error: 0.02706630527973175
+------: varphi_y mix Error: 0.12513330578804016
+Saved Model
+Epoch: 71 Loss: 1.3900002603660886
+Epoch: 72 Loss: 1.141397054719149
+Epoch: 73 Loss: 1.1173594909174744
+Epoch: 74 Loss: 1.1257646195841164
+Epoch: 75 Loss: 1.0661681771673868
+Epoch: 75 Validation Loss: 0.25786041128799336
+------: x Error: 0.005563215971895009
+------: y Error: 0.01863881882631783
+------: varphi_x Error: 0.02735257931389094
+------: varphi_y Error: 0.09594307709159222
+------: x internal Error: 0.0014331195270642638
+------: y internal Error: 0.028422700241208076
+------: varphi_x internal Error: 0.019123023375868797
+------: varphi_y internal Error: 0.09917528927326202
+------: x model Error: 0.004842530004680157
+------: y model Error: 0.01670055277645588
+------: varphi_x model Error: 0.005262062884867191
+------: varphi_y model Error: 0.014293152838945389
+------: x mix Error: 0.006275649648159742
+------: y mix Error: 0.045123253017663956
+------: varphi_x mix Error: 0.024385087192058563
+------: varphi_y mix Error: 0.11346843093633652
+Saved Model
+Epoch: 76 Loss: 0.9876420009881753
+Epoch: 77 Loss: 0.9582854835254152
+Epoch: 78 Loss: 0.8344069356073958
+Epoch: 79 Loss: 0.8361015924153202
+Epoch: 80 Loss: 0.7804818320765653
+Epoch: 80 Validation Loss: 0.1351382070973345
+------: x Error: 0.009143110115370801
+------: y Error: 0.013005179262232956
+------: varphi_x Error: 0.046661378858032246
+------: varphi_y Error: 0.07132088967077978
+------: x internal Error: 0.002280181273818016
+------: y internal Error: 0.03187714144587517
+------: varphi_x internal Error: 0.02595474012196064
+------: varphi_y internal Error: 0.07069828361272812
+------: x model Error: 0.006060272920876741
+------: y model Error: 0.02048102580010891
+------: varphi_x model Error: 0.005450073629617691
+------: varphi_y model Error: 0.01551385223865509
+------: x mix Error: 0.00834045372903347
+------: y mix Error: 0.05235816538333893
+------: varphi_x mix Error: 0.03140481561422348
+------: varphi_y mix Error: 0.08621212840080261
+Saved Model
+Epoch: 81 Loss: 0.7246945591666784
+Epoch: 82 Loss: 0.6508212665971523
+Epoch: 83 Loss: 0.5856400603805627
+Epoch: 84 Loss: 0.6635502598953211
+Epoch: 85 Loss: 0.3744855182766028
+Epoch: 85 Validation Loss: 0.07732846949535489
+------: x Error: 0.005499109104275082
+------: y Error: 0.015659018049426418
+------: varphi_x Error: 0.030305977111758274
+------: varphi_y Error: 0.10729404159268895
+------: x internal Error: 0.0010613180929794908
+------: y internal Error: 0.02924044243991375
+------: varphi_x internal Error: 0.017554793506860733
+------: varphi_y internal Error: 0.05909501761198044
+------: x model Error: 0.005388411693274975
+------: y model Error: 0.018948202952742577
+------: varphi_x model Error: 0.00514270830899477
+------: varphi_y model Error: 0.016394544392824173
+------: x mix Error: 0.006449729669839144
+------: y mix Error: 0.048188649117946625
+------: varphi_x mix Error: 0.02269750088453293
+------: varphi_y mix Error: 0.0754895731806755
+Saved Model
+Epoch: 86 Loss: 0.19697260237136535
+Epoch: 87 Loss: 0.42813216494635553
+Epoch: 88 Loss: 0.8045373659047005
+Epoch: 89 Loss: 0.5283667091320319
+Epoch: 90 Loss: 0.2575195387262155
+Epoch: 90 Validation Loss: 0.22106267897977858
+------: x Error: 0.004455808785486141
+------: y Error: 0.015157295670696477
+------: varphi_x Error: 0.035299264757670736
+------: varphi_y Error: 0.13201926866831545
+------: x internal Error: 0.0014159097336232662
+------: y internal Error: 0.028512055054306984
+------: varphi_x internal Error: 0.022261902689933777
+------: varphi_y internal Error: 0.0725226178765297
+------: x model Error: 0.00547823216766119
+------: y model Error: 0.017082396894693375
+------: varphi_x model Error: 0.004646723624318838
+------: varphi_y model Error: 0.01575298048555851
+------: x mix Error: 0.0068941423669457436
+------: y mix Error: 0.04559445381164551
+------: varphi_x mix Error: 0.026908624917268753
+------: varphi_y mix Error: 0.08827561140060425
+Epoch: 91 Loss: 0.16359836215066256
+Epoch: 92 Loss: -0.038374979545238136
+Epoch: 93 Loss: -0.1198261588311757
+Epoch: 94 Loss: -0.22409596267936222
+Epoch: 95 Loss: -0.345965185823325
+Epoch: 95 Validation Loss: -0.13102363439702125
+------: x Error: 0.0032735255847093276
+------: y Error: 0.011444947982557947
+------: varphi_x Error: 0.0205023247183436
+------: varphi_y Error: 0.048840304192430635
+------: x internal Error: 0.0011879418743774295
+------: y internal Error: 0.025318846106529236
+------: varphi_x internal Error: 0.013490059413015842
+------: varphi_y internal Error: 0.04486217349767685
+------: x model Error: 0.005125364288687706
+------: y model Error: 0.014843073673546314
+------: varphi_x model Error: 0.00480162538588047
+------: varphi_y model Error: 0.01580551266670227
+------: x mix Error: 0.00631330581381917
+------: y mix Error: 0.040161918848752975
+------: varphi_x mix Error: 0.018291685730218887
+------: varphi_y mix Error: 0.06066768616437912
+Saved Model
+Epoch: 96 Loss: -0.1926278137059954
+Epoch: 97 Loss: -0.3815215876741772
+Epoch: 98 Loss: -0.21578290196704925
+Epoch: 99 Loss: -0.34349529605828205
+Epoch: 100 Loss: -0.47344291454754156
+Epoch: 100 Validation Loss: -0.08685672678476374
+------: x Error: 0.004866686461593496
+------: y Error: 0.02294764463462339
+------: varphi_x Error: 0.016713834050675377
+------: varphi_y Error: 0.043394432672912805
+------: x internal Error: 0.0008559288689866662
+------: y internal Error: 0.026254117488861084
+------: varphi_x internal Error: 0.009478270076215267
+------: varphi_y internal Error: 0.03165336698293686
+------: x model Error: 0.0051233889535069466
+------: y model Error: 0.015717746689915657
+------: varphi_x model Error: 0.004111425019800663
+------: varphi_y model Error: 0.013710490427911282
+------: x mix Error: 0.005979318171739578
+------: y mix Error: 0.04197185859084129
+------: varphi_x mix Error: 0.013589694164693356
+------: varphi_y mix Error: 0.045363858342170715
+Epoch: 101 Loss: -0.2454867486221399
+Epoch: 102 Loss: -0.4441151663485404
+Epoch: 103 Loss: -0.5502160336484452
+Epoch: 104 Loss: -0.4418916970729661
+Epoch: 105 Loss: -0.5760510776457876
+Epoch: 105 Validation Loss: -0.04210119989466921
+------: x Error: 0.004506145273930801
+------: y Error: 0.017760862504895857
+------: varphi_x Error: 0.024534948394741653
+------: varphi_y Error: 0.08143879611769846
+------: x internal Error: 0.0011602023150771856
+------: y internal Error: 0.02299242652952671
+------: varphi_x internal Error: 0.016216004267334938
+------: varphi_y internal Error: 0.03887970373034477
+------: x model Error: 0.005169213283807039
+------: y model Error: 0.015005112625658512
+------: varphi_x model Error: 0.004629800096154213
+------: varphi_y model Error: 0.01425609365105629
+------: x mix Error: 0.006329415366053581
+------: y mix Error: 0.0379975363612175
+------: varphi_x mix Error: 0.02084580436348915
+------: varphi_y mix Error: 0.05313580483198166
+Epoch: 106 Loss: -0.7358695824855537
+Epoch: 107 Loss: -0.7689748122389461
+Epoch: 108 Loss: -0.7383094525443324
+Epoch: 109 Loss: -0.6359897345201787
+Epoch: 110 Loss: -0.6145022167352135
+Epoch: 110 Validation Loss: -0.1300431747242384
+------: x Error: 0.0035442483154809745
+------: y Error: 0.01476877876569069
+------: varphi_x Error: 0.012775393872849216
+------: varphi_y Error: 0.03229793539168817
+------: x internal Error: 0.0014809841522946954
+------: y internal Error: 0.028170835226774216
+------: varphi_x internal Error: 0.009050404652953148
+------: varphi_y internal Error: 0.032559532672166824
+------: x model Error: 0.005807383451610804
+------: y model Error: 0.01998756267130375
+------: varphi_x model Error: 0.0042854007333517075
+------: varphi_y model Error: 0.014380315318703651
+------: x mix Error: 0.0072883679531514645
+------: y mix Error: 0.048158399760723114
+------: varphi_x mix Error: 0.01333580445498228
+------: varphi_y mix Error: 0.046939849853515625
+Traceback (most recent call last):
+  File "/home/ryan/dev/NIMBUS/f1tenth_perception/Pose Estimation/train.py", line 45, in <module>
+    for i, (images, labels) in enumerate(train_loader):
+  File "/home/ryan/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/home/ryan/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 561, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/ryan/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ryan/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/ryan/.local/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 363, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/home/ryan/dev/NIMBUS/f1tenth_perception/Pose Estimation/vicon_dataset.py", line 107, in __getitem__
+    image = image_processing.prepare_image(unmodified_camera_image, min_x, max_x, min_y, max_y)
+  File "/home/ryan/dev/NIMBUS/f1tenth_perception/Pose Estimation/image_processing.py", line 7, in prepare_image
+    resized_image = cv.resize(cv_rgb_image, (constants.pose_network_width, constants.pose_network_width))
+KeyboardInterrupt
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)

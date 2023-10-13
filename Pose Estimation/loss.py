@@ -18,7 +18,7 @@ class PoseEstimationLoss(nn.Module):
 
     def __init__(self):
         super(PoseEstimationLoss, self).__init__()
-        self.gaussian_loss = nn.GaussianNLLLoss(eps=0.3)# was 0.3
+        self.gaussian_loss = nn.GaussianNLLLoss(eps=1e-1)# was 0.3
         self.angle_constant = 10
         self.pos_constant = 5
 

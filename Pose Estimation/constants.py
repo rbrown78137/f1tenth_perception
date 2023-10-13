@@ -1,5 +1,6 @@
 import torch
 import math
+
 camera_pixel_width = 640
 camera_pixel_height = 480
 yolo_network_width = 416
